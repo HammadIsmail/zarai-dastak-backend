@@ -1,0 +1,51 @@
+# ============================================================
+# Backend .gitignore — FastAPI / Python
+# ============================================================
+
+# ── Environment & Secrets ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# Firebase service-account private key (NEVER commit real keys)
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Logs & Databases ─────────────────────────────────────────
+*.log
+*.sqlite3
+*.db
+
+# ── IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/

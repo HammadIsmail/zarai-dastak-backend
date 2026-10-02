@@ -1,0 +1,50 @@
+# Python Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+
+# GraphQL
+graphene==3.4.3
+strawberry-graphql==0.254.0
+starlette-graphene3==0.6.0
+
+# Neo4j Database
+neo4j==5.26.0
+neomodel==5.4.1
+
+# Firebase
+firebase-admin==6.6.0
+
+# Authentication & Security
+pyjwt==2.10.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# Utilities
+python-dateutil==2.9.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+email-validator==2.1.0
+
+# Image Processing (for base64 conversion)
+pillow==11.0.0
+
+# Distance Calculation
+geopy==2.4.1
+
+# CORS
+fastapi-cors==0.0.6
+
+# Realtime / Signaling
+python-socketio==5.11.4
+redis[hiredis]==5.2.1
+
+# Development
+pytest==8.3.4
+pytest-asyncio==0.24.0
+black==24.10.0
+flake8==7.1.1
